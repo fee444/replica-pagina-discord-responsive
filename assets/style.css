@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body,
+html {
+    margin: 0;
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+}
+
+.topo {
+    display: flex;
+    background: url(/assets/Header\ Background.png) no-repeat center center;
+    background-size: cover;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4vh 3vw;
+}
+
+.infos h1 {
+    color: white;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+
+    padding-top: 4vh;
+    height: 20px;
+}
+
+.infos p {
+    color: white;
+
+    font-size: 1.2rem;
+
+    font-weight: 400;
+    font-family: 'Open Sans';
+    flex-wrap: wrap;
+}
+
+.button-container button {
+    display: flex;
+    margin: 1vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header_button_win {
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    width: 75vw;
+    height: 54px;
+    font-family: Open Sans;
+
+
+}
+
+#header_button_nav {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #23272A;
+    background-color: #23272A;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    width: 75vw;
+    height: 54px;
+    font-family: Open Sans;
+
+}
+
+.conteudo {
+    display:flex;
+    flex-direction: column;
+}
+.text-content {
+    margin-top: 20px;
+}
+
+.text-content h1 {
+    color: #23272A;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    flex-wrap: wrap;
+}
+
+.text-content p {
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+
+}
+
+.text-content02 h1 {
+    color: #23272A;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    flex-wrap: wrap;
+}
+
+.text-content02 p {
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+
+}
+
+.conteudo-2 {
+    display:flex;
+    flex-direction: column;
+}
+
+.conteudo-3 {
+    margin: 3vw;
+}
+
+.text-content03 h1 {
+    color: #23272A;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    flex-wrap: wrap;
+}
+
+.text-content03 p {
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+
+}
+
+.conteudo-4 {
+    margin: 3vw;
+}
+
+.text-content04 h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.text-content04 p {
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+
+
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272A; /* Cor de fundo para visualização */
+}
+
+.rodape img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Coluna por padrão */
+    align-items: center;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
